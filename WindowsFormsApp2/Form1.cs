@@ -213,5 +213,15 @@ namespace WindowsFormsApp2
         {
             SearchLoad();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var fileDialog = new OpenFileDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
