@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4b75142c5a904922aed7633961127d30" Name="Diagram1">
+        <EntityTypeShape EntityType="EXAM11Model.CATEGORY" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.MANUFACTURE" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.NAMETOVAR" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.ORDERHASTOVAR" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.ORDERS" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.OUTSIDE" Width="1.5" PointX="1.5" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.POINTDELIVERY" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.ROLES" Width="1.5" PointX="1.5" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.STATUSORDER" Width="1.5" PointX="0.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.sysdiagrams" Width="1.5" PointX="2.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.TOVARS" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.TOWN" Width="1.5" PointX="1.5" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXAM11Model.USERS" Width="1.5" PointX="0.75" PointY="22.25" IsExpanded="true" />
+        <AssociationConnector Association="EXAM11Model.FK__TOVARS__IDCATEGO__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="EXAM11Model.FK__TOVARS__IDMANUFA__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="EXAM11Model.FK__TOVARS__IDNAMETO__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="EXAM11Model.FK_ORDERHASTOVAR_ORDERS" ManuallyRouted="false" />
+        <AssociationConnector Association="EXAM11Model.FK_ORDERHASTOVAR_TOVARS" ManuallyRouted="false" />
+        <AssociationConnector Association="EXAM11Model.FK__ORDERS__IDPOINTD__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="EXAM11Model.FK__ORDERS__IDSTATUS__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="EXAM11Model.FK__ORDERS__IDUSERS__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="EXAM11Model.FK__POINTDELI__IDOUT__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="EXAM11Model.FK__POINTDELI__IDTOW__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="EXAM11Model.FK__USERS__IDROLES__534D60F1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
